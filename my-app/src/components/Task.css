@@ -1,0 +1,110 @@
+.a{
+    padding: 0;
+    margin: 0;
+}
+
+.hidden-options{
+    position: relative;
+    display: flex;
+    top: 400px;
+    left: 200px;
+    border: 3px solid white;
+    height: 700px;
+    width: 1600px;
+    overflow: hidden;
+    backdrop-filter: blur(8px);
+    border-radius: 40px;
+
+}
+
+.games {
+    position:relative;
+    display: flex;
+    left: 1200px;
+    top: 170px;
+    height: 140px;
+    width: 140px;
+}
+
+.music {
+    position: relative;
+    display:flex;
+    height: 140px;
+    width: 140px;
+    left:1200px;
+    top: 80px;
+}
+
+.quiz{
+    position: relative;
+    display: flex;
+    left: 400px;
+    top: 260px;
+    width: 140px;
+    height: 140px;
+}
+.blog{
+    position: relative;
+    display: flex;
+    left: 400px;
+    top: 400px;
+    width: 140px;
+    height: 140px;
+    
+}
+
+.chat{
+    position: relative;
+    display: flex;
+    left: 700px;
+    top:500px;
+    height: 140px;
+    width: 140px;
+} 
+
+ .hidden-options{
+    position : relative;
+    display:flex;
+    border:solid black;
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+   
+}
+.hidden-options:hover{
+    opacity: 100;
+} 
+
+.circle1{
+    position: relative;
+    display: flex;
+    height: 50px;
+    width: 50px;
+    top: 100px;
+    left: 550px;
+}
+
+.circle2{
+    position: relative;
+    display: flex;
+    height: 100px;
+    width: 100px;
+    top: 230px;
+    left: 600px;
+}
+
+.circle11{
+    position: relative;
+    display: flex;
+    height: 50px;
+    width: 50px;
+    top: 320px;
+    
+
+}
+
+.circle12{
+    position: relative;
+    display: flex;
+    height: 50px;
+    width: 50px;
+}

@@ -1,0 +1,16 @@
+.bg{
+  padding: 0px;
+  margin: 0px;
+  width: 100%;
+  background-size: cover;
+  height: 4200px;
+
+  background-color: blueviolet;
+  /* background-image: url("./components/bg.png"); */
+}
+
+/* .About{
+  position: relative;
+  display: flex;
+  top: 600px;
+} */

@@ -1,0 +1,79 @@
+.maow{
+    position: relative;
+    display:flex;
+    left: 1000px;
+    top: 280px;
+    animation: maow 1.5s ease;
+}
+.hellomaow{
+  position: relative;
+  display: flex;
+  bottom: 300px;
+  left: 450px;
+  animation: hellomaow 1.5s ease;
+}
+
+@keyframes maow {
+  from {
+    transform: translateX(200%); /* Start from outside the screen on the left */
+  }
+  to {
+    transform: translateX(0); /* Move to the original position inside the screen */
+  }
+}
+
+
+@keyframes hellomaow {
+  from {
+    transform: translateX(-200%); /* Start from outside the screen on the left */
+  }
+  to {
+    transform: translateX(0); /* Move to the original position inside the screen */
+  }
+}
+
+/* Container element
+.typewriter {
+    overflow: hidden;
+    color: aliceblue;
+  }
+  .typewriter::before{
+    content: "Hello Maow";
+  }
+  
+  /* Pseudo-element for the cursor */
+  /* .typewriter::after {
+    content: "";
+    border-right: 0.15em solid white;
+    animation: blink 0.75s step-end infinite;
+  }
+  
+  /* Child element for the text */
+  /* .typewriter span {
+    display: inline-block;
+    width: 0;
+    white-space: nowrap;
+    animation: typing 3.5s steps(40, end) forwards;
+  }
+  
+  /* Keyframes for the typing animation */
+  /* @keyframes typing {
+    from {
+      width: 0;
+    }
+    to {
+      width: 100%;
+    }
+  }
+  
+  /* Keyframes for the blinking animation */
+  /* @keyframes blink {
+    from,
+    to {
+      border-color: white;
+    }
+    50% {
+      border-color: white; */
+    /* }
+  }
+   */ 
