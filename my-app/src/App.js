@@ -1,6 +1,6 @@
 import React from 'react';
 import Navbar from './components/Navbar';
-import { BrowserRouter as Router , Routes , Route } from 'react-router-dom';
+// import { BrowserRouter as Router , Routes , Route } from 'react-router-dom';
 import './App.css';
 import Hero from './components/Hero';
 import Task from './components/Task';
@@ -10,17 +10,17 @@ function App() {
   return (
     <>
     <div className='bg'>
-      <Router>
+      {/* <Router> */}
         <Navbar/>
         <Hero/>
         <Task/>
         {/* <div className='About'> */}
           <About/>
         {/* </div> */}
-        <Routes>
-          <Route path='/' exact />
-        </Routes>
-      </Router>
+        {/* <Routes> */}
+          {/* <Route path='/' exact /> */}
+        {/* </Routes> */}
+      {/* </Router> */}
       </div>   
     </>
   );

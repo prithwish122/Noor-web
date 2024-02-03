@@ -6,8 +6,14 @@
   height: 4200px;
 
   background-color: blueviolet;
-  /* background-image: url("./components/bg.png"); */
+  /* background: url("./components/bg.png"); */
 }
+
+*{
+  padding: 0;
+  margin: 0;
+}
+
 
 /* .About{
   position: relative;
