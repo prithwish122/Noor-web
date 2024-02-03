@@ -7,7 +7,7 @@ import Logo from '../components/Logo.png';
 
 
 function Navbar() { 
-    return(
+    return( 
         
             <nav className="navbar">
                     <a href="/" className="title"> 
