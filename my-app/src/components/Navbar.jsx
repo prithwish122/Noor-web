@@ -6,7 +6,7 @@ import Logo from '../components/Logo.png';
 // import Profile from "./Profile";
 
 
-function Navbar() {
+function Navbar() { 
     return(
         
             <nav className="navbar">
